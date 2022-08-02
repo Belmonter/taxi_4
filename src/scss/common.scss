@@ -1,0 +1,31 @@
+@use 'sass:math';
+
+// Заголовки, общие БЄМ блоки и проче...
+
+
+
+.title {
+  font-weight: 700;
+  font-size: rem(32);
+  @include adaptiveValue("font-size", 32, 20);
+  line-height: 120%;
+}
+table {
+  //border-collapse: unset;
+  border-spacing: unset;
+}
+.btn {
+  cursor: pointer;
+  width: 222px;
+  height: 50px;
+  background: $themeColor;
+  box-shadow: 0px 21px 55px rgba(52, 177, 110, 0.5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: rem(16);
+  line-height: math.div(20, 16);
+  color: $whiteColor;
+}

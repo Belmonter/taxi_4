@@ -1,0 +1,75 @@
+@use "sass:math";
+
+.why {
+  @include adaptiveValue("padding-top", 100, 40);
+  @include adaptiveValue("padding-bottom", 100, 40);
+  // .why__container
+  &__container {
+  }
+  // .why__title
+  &__title {
+  }
+  // .why__decs
+  &__desc {
+    width: 100%;
+    max-width: 907px;
+    margin-top: 18px;
+    font-weight: 500;
+    @include adaptiveValue("font-size", 18, 14);
+    line-height: 130%;
+  }
+  // .why__wrapper
+  &__wrapper {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    column-gap: 145px;
+    @include adaptiveValue("row-gap", 80, 40);
+    flex-wrap: wrap;
+  }
+  // .why__item
+  &__item {
+    width: 281px;
+    padding: 0 5px;
+  }
+}
+.item-why {
+  // .item-why__icon
+  &__icon {
+    width: 100px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+    background-color: $whiteColor;
+    box-shadow: 0px 29px 136px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  // .item-why__desc
+  &__desc {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    @include adaptiveValue("font-size", 20, 16);
+    line-height: math.div(24, 20);
+  }
+}
+._icon-why_cloack {
+  font-size: rem(60);
+}
+._icon-why_check {
+  font-size: rem(60);
+}
+._icon-why_percent {
+  font-size: rem(60);
+}
+._icon-why_ruble {
+  font-size: rem(60);
+}
+._icon-why_support {
+  font-size: rem(60);
+}
+._icon-why_safety {
+  font-size: rem(60);
+}

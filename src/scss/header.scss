@@ -1,0 +1,224 @@
+@use "sass:math";
+
+.header {
+  background: $whiteColor;
+  box-shadow: 0 0 57px rgba(0, 0, 0, 0.25);
+  padding: 33px 0 27px 0;
+  z-index: 2;
+  // .header__container
+  &__container {
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .header__logo
+  &__logo {
+  }
+
+  // .header__menu
+  &__menu {
+  }
+
+  // .header__phone
+  &__phone {
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  // .menu__icon
+  &__icon {
+  }
+
+  // .menu__body
+  &__body {
+  }
+
+  // .menu__list
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 54px;
+    @include adaptiveValue("column-gap", 54, 20, 1920, 798, 1);
+    @media (max-width: 790px) {
+      flex-direction: column;
+      row-gap: 30px;
+      align-items: flex-start;
+    }
+  }
+
+  // .menu__item
+  &__item {
+  }
+
+  // .menu__link
+  &__link {
+    font-size: rem(16);
+    line-height: math.div(20, 16);
+    transition: all 0.5s ease 0s;
+
+    &:hover {
+      color: $themeColor;
+    }
+  }
+}
+
+
+.phone-header {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  @media (max-width: 400px) {
+    margin-top: 7px;
+  }
+  // .phone-header__icon
+  &__icon {
+    &::before {
+      font-size: rem(24);
+    }
+  }
+
+  // .phone-header__number
+  &__number {
+  }
+}
+
+._icon-header_phone {
+}
+
+
+//====================================================================================================
+
+//====================================================================================================
+
+//Burger
+
+.burger-header {
+  position: absolute;
+  overflow-y: auto;
+  top: 84px;
+  right: -500px;
+  width: 218px;
+  padding-top: 30px;
+  background-color: $whiteColor;
+  filter: drop-shadow(0px 29px 106px rgba(0, 0, 0, 0.16));
+  transition: all 0.5s ease 0s;
+  @media (max-width: 400px) {
+    top: 109px;
+  }
+  .menu-open & {
+    right: 0;
+  }
+  //opacity: 0;
+  //visibility: hidden;
+  // .burger-header__wrapper
+  &__wrapper {
+  }
+  // .burger-header__menu
+  &__menu {
+    padding: 30px 0 30px 30px;
+  }
+  // .burger-header__phone
+  &__phone {
+    padding: 30px 28px 30px 30px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid $themeColor;
+    border-bottom: 1px solid $themeColor;
+  }
+  .burger-phone__icon {
+    &::before {
+      font-size: rem(16);
+    }
+  }
+  .burger-phone {
+    column-gap: 6px;
+    a {
+      font-weight: 600;
+      font-size: rem(16);
+      line-height: math.div(20, 16);
+    }
+  }
+  // .burger-header__btn
+  &__btn {
+    width: 186px;
+    height: 50px;
+    margin: 30px auto 0 auto;
+  }
+  // .burger-header__discount
+  &__discount {
+    padding: 28px 30px 29px 32px;
+    margin-top: 30px;
+    background-color: $themeColor;
+  }
+}
+.discount-burger {
+  // .discount-burger__text
+  &__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    font-weight: 600;
+    font-size: rem(20);
+    line-height: math.div(24, 20);
+    color: $whiteColor;
+    p:nth-child(2) {
+      font-weight: 700;
+      font-size: rem(30);
+    }
+  }
+}
+
+.icon-menu {
+  display: none;
+  @media (max-width: 790px) {
+    display: block;
+    position: relative;
+    width: rem(30);
+    height: rem(18);
+    cursor: pointer;
+    z-index: 5;
+    span,
+    &::before,
+    &::after {
+      content: "";
+      transition: all 0.3s ease 0s;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      height: rem(2);
+      background-color: #000;
+    }
+    &::before {
+      top: 0;
+    }
+    &::after {
+      bottom: 0;
+    }
+    span {
+      top: calc(50% - rem(1));
+    }
+    .menu-open & {
+      span {
+        width: 0;
+      }
+      &::before,
+      &::after {
+      }
+      &::before {
+        top: calc(50% - rem(1));
+        transform: rotate(-45deg);
+      }
+      &::after {
+        bottom: calc(50% - rem(1));
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+

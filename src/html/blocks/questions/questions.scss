@@ -1,0 +1,104 @@
+@use "sass:math";
+
+.questions {
+  background-color: $themeColor;
+  padding: 45px 0;
+  // .questions__container
+  &__container {
+    //max-width: rem(1220);
+  }
+  // .questions__header
+  &__header {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    @media (max-width: 1080px) {
+      flex-direction: column;
+      row-gap: 15px;
+    }
+  }
+  // .questions__form
+  &__form {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    @include adaptiveValue("column-gap", 46, 20, 1920, 1130, 1);
+    @media (max-width: 1080px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 25px;
+    }
+    @media (max-width: 870px) {
+      flex-direction: column;
+    }
+  }
+}
+.header-questions {
+  // .header-questions__title
+  &__title {
+    color: $whiteColor;
+    @media (max-width: 500px) {
+      align-self: flex-start;
+    }
+  }
+  // .header-questions__desc
+  &__desc {
+    max-width: 619px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 130%;
+    color: $whiteColor;
+    @media (max-width: 1080px) {
+      text-align: center;
+    }
+    @media (max-width: 500px) {
+      text-align: start;
+    }
+  }
+}
+.form-questions {
+  // .form-questions__wrapper
+  &__wrapper {
+  }
+  // .form-questions__label
+  &__label {
+    display: block;
+    font-weight: 700;
+    font-size: rem(14);
+    line-height: math.div(17, 14);
+    letter-spacing: 0.07em;
+    color: $whiteColor;
+  }
+  // .form-questions__input
+  &__input {
+    display: block;
+    padding: 14px 20px;
+    margin-top: 6px;
+    @include adaptiveValue("width", 400, 290, 500, 320, 1);
+    height: 48px;
+    border: 1px solid $themeColor;
+    border-radius: 5px;
+    &::placeholder {
+      font-size: rem(16);
+      line-height: math.div(20, 16);
+      color: $greyColor;
+    }
+  }
+  // .form-questions__btn
+  &__btn {
+    cursor: pointer;
+    width: 222px;
+    height: 48px;
+    align-self: flex-end;
+    background-color: inherit;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: rem(16);
+    line-height: math.div(20, 16);
+    color: $whiteColor;
+    @media (max-width: 870px) {
+      align-self: center;
+    }
+  }
+}

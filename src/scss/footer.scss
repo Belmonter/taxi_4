@@ -1,0 +1,118 @@
+@use 'sass:math';
+
+.footer {
+  padding: 40px 0 42px 0;
+  background-color: $themeColor;
+  // .footer__container
+  &__container {
+  }
+  // .footer__wrapper
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 1020px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 20px;
+      row-gap: 40px;
+    }
+    @media (max-width: 778px) {
+      flex-direction: column;
+    }
+  }
+  // .footer__about
+  &__about {
+  }
+  // .footer__logo
+  &__logo {
+    @media (max-width: 778px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  // .footer__privacy
+  &__privacy {
+    margin-top: 10px;
+    max-width: 186px;
+    width: 100%;
+    font-size: rem(12);
+    line-height: math.div(15, 12);
+    color: $whiteColor;
+    @media (max-width: 778px) {
+      text-align: center;
+    }
+  }
+  // .footer__menu
+  &__menu {
+  }
+  // .footer__contacts
+  &__contacts {
+  }
+}
+.footer-menu {
+  // .footer-menu__body
+  &__body {
+  }
+  // .footer-menu__list
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 54px;
+    @media (max-width: 778px) {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+  }
+  // .footer-menu__item
+  &__item {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: rem(16);
+    line-height: math.div(20, 16);
+    color: $whiteColor;
+  }
+  // .footer-menu__link
+  &__link {
+  }
+}
+.contacts-footer {
+  // .contacts-footer__phone
+  &__phone {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 12px;
+    @media (max-width: 1020px) {
+      justify-content: center;
+    }
+  }
+  // .contacts-footer__icon
+  &__icon {
+    &::before {
+      color: $whiteColor;
+      font-size: rem(24);
+    }
+  }
+  // .contacts-footer__number
+  &__number {
+    font-weight: 600;
+    line-height: math.div(22, 18);
+    color: $whiteColor;
+  }
+  // .contacts-footer__address
+  &__address {
+    margin-top: 9px;
+    font-size: rem(12);
+    line-height: math.div(15, 12);
+    color: $whiteColor;
+    p {
+      text-align: end;
+      @media (max-width: 1020px) {
+        text-align: center;
+      }
+    }
+  }
+}
+._icon-header_phone {
+}
