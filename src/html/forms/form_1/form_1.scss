@@ -18,8 +18,7 @@
   padding: 40px;
   max-width: 600px;
   width: 100%;
-  height: 500px;
-  background: #FFFFFF;
+  background: $whiteColor;
   box-shadow: 0px 35px 143px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   label {
@@ -31,8 +30,10 @@
   }
   // .form-1__footer
   &__footer {
+    position: relative;
     margin-top: 31px;
     display: flex;
+    justify-content: center;
   }
   // .form-1__btn
   &__btn {
@@ -54,8 +55,13 @@
   }
   // .form-1__steps
   &__steps {
-    align-self: flex-end;
-    justify-self: flex-start;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 600;
+    font-size: rem(16);
+    line-height: math.div(20, 16);
+    color: $greyColor;
   }
 }
 
@@ -64,15 +70,6 @@
   display: flex;
   justify-content: center;
   column-gap: 60px;
-  // .results-form-1__cash
-  &__cash {
-  }
-  // .results-form-1__distance
-  &__distance {
-  }
-  // .results-form-1__time
-  &__time {
-  }
 }
 .cash-title {
   font-weight: 700;

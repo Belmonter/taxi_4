@@ -35,3 +35,40 @@ table {
   top: 0;
   right: 0;
 }
+
+.form-disable {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.form__btn {
+  width: 186px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $themeColor;
+  box-shadow: 0px 21px 55px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: rem(16);
+  line-height: math.div(20, 16);
+  color: $whiteColor;
+  &.disabled {
+    background: $greyColor;
+  }
+}
+
+.form__steps {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: 600;
+  font-size: rem(16);
+  line-height: math.div(20, 16);
+  color: $greyColor;
+}

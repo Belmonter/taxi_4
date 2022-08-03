@@ -9,46 +9,83 @@
   </div>
   <div class="subheader__map" id="map"></div>
 
-  <div class="form-1">
-    <div class="select__from">
-      <label for="from">ОТКУДА</label>
-      <select id="from" data-search data-class-modif="from" data-scroll name="form[]" class="form">
-        <option value="">Улица</option>
-      </select>
-    </div>
-    <div class="select__to">
-      <label for="to">КУДА</label>
-      <select id="to" data-search data-class-modif="to" data-scroll name="form[]" class="form">
-        <option value="">Улица</option>
-      </select>
-    </div>
-    <div class="select__class">
-      <label for="class">КЛАСС АВТО</label>
-      <select id="class" data-class-modif="class" data-scroll name="form[]" class="form">
-        <option value="1">Стандарт</option>
-        <option value="2">Универсал</option>
-        <option value="3">Комфорт</option>
-        <option value="4">Бизнес</option>
-        <option value="5">Минивен</option>
-      </select>
-    </div>
-    <div class="form-1__results results-form-1">
-      <div class="results-form-1__cash">
-        <div class="cash-title">СТОИМОСТЬ</div>
-        <div class="cash-num">-</div>
+<!--  <div class="form-1 form-disable">-->
+<!--    <div class="select__from">-->
+<!--      <label for="from">ОТКУДА</label>-->
+<!--      <select id="from" data-search data-class-modif="from" data-scroll name="form[]" class="form">-->
+<!--        <option value="">Улица</option>-->
+<!--      </select>-->
+<!--    </div>-->
+<!--    <div class="select__to">-->
+<!--      <label for="to">КУДА</label>-->
+<!--      <select id="to" data-search data-class-modif="to" data-scroll name="form[]" class="form">-->
+<!--        <option value="">Улица</option>-->
+<!--      </select>-->
+<!--    </div>-->
+<!--    <div class="select__class">-->
+<!--      <label for="class">КЛАСС АВТО</label>-->
+<!--      <select id="class" data-class-modif="class" data-scroll name="form[]" class="form">-->
+<!--        <option value="1">Стандарт</option>-->
+<!--        <option value="2">Универсал</option>-->
+<!--        <option value="3">Комфорт</option>-->
+<!--        <option value="4">Бизнес</option>-->
+<!--        <option value="5">Минивен</option>-->
+<!--      </select>-->
+<!--    </div>-->
+<!--    <div class="form-1__results results-form-1">-->
+<!--      <div class="results-form-1__cash">-->
+<!--        <div class="cash-title">СТОИМОСТЬ</div>-->
+<!--        <div class="cash-num">-</div>-->
+<!--      </div>-->
+<!--      <div class="results-form-1__distance">-->
+<!--        <div class="distance-title">РАССТОЯНИЕ</div>-->
+<!--        <div class="distance-num">-</div>-->
+<!--      </div>-->
+<!--      <div class="results-form-1__time">-->
+<!--        <div class="time-title">ВРЕМЯ</div>-->
+<!--        <div class="time-num">-</div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="form-1__footer">-->
+<!--      <div class="form-1__btn disabled">Далее</div>-->
+<!--      <div class="form-1__steps">1/3</div>-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <div class="form-2">
+    <div class="form-2__header">
+      <div class="form-2__wrapper">
+        <label for="name">ИМЯ
+          <input type="text" id="name" placeholder="Александр">
+        </label>
       </div>
-      <div class="results-form-1__distance">
-        <div class="distance-title">РАССТОЯНИЕ</div>
-        <div class="distance-num">-</div>
-      </div>
-      <div class="results-form-1__time">
-        <div class="time-title">ВРЕМЯ</div>
-        <div class="time-num">-</div>
+      <div class="form-2__wrapper">
+        <label for="form-2-tel">НОМЕР ТЕЛЕФОНА
+          <input type="tel" data-tel-input maxlength="18" id="form-2-tel" placeholder="+7 (___) ___-__-__">
+        </label>
       </div>
     </div>
-    <div class="form-1__footer">
-      <div class="form-1__btn disabled">Далее</div>
-      <div class="form-1__steps">1/3</div>
+    <div class="form-2__wrapper mt-20">
+      <label for="mail">ПОЧТА
+        <input type="text" id="mail" placeholder="example@gmail.com">
+      </label>
+    </div>
+    <div class="form-2__footer">
+      <div class="form-2__wrapper">
+        <label for="name">ДАТА</label>
+        <input type="text" id="date" placeholder="дд.мм.гггг">
+        <div class="_icon-select_calendar form__date"></div>
+      </div>
+      <div class="form-2__wrapper">
+        <label for="form-2-tel">ВРЕМЯ</label>
+        <input type="tel" id="time" placeholder="18:20">
+        <div class="_icon-select_time form__time"></div>
+      </div>
+    </div>
+    <div class="form-2__footer">
+      <div class="_icon-form_arrow_keft"></div>
+      <div class="form-2__btn form__btn disabled">Далее</div>
+      <div class="form-2__steps form__steps">2/3</div>
     </div>
   </div>
 </div>
