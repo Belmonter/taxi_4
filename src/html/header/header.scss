@@ -100,19 +100,23 @@
 
 .burger-header {
   position: absolute;
+  opacity: 0;
+  visibility: hidden;
   overflow-y: auto;
-  top: 84px;
-  right: -500px;
+  top: 0px;
+  right: 0;
   width: 218px;
   padding-top: 30px;
   background-color: $whiteColor;
   filter: drop-shadow(0px 29px 106px rgba(0, 0, 0, 0.16));
   transition: all 0.5s ease 0s;
-  @media (max-width: 400px) {
-    top: 109px;
-  }
   .menu-open & {
-    right: 0;
+    top: 84px;
+    opacity: 1;
+    visibility: visible;
+    @media (max-width: 400px) {
+      top: 109px;
+    }
   }
   //opacity: 0;
   //visibility: hidden;

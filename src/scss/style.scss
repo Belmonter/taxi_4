@@ -133,8 +133,8 @@ body {
 @import "common";
 
 // Подключение стилей отдельных блоков
-@import "header";
-@import "footer";
+@import "../html/header/header.scss";
+@import "../html/footer/footer.scss";
 @import "../html/blocks/subheader/subheader.scss";
 @import "../html/blocks/promo/promo.scss";
 @import "../html/blocks/table/table.scss";
@@ -144,6 +144,7 @@ body {
 @import "../html/blocks/questions/questions.scss";
 @import "../html/blocks/faq/faq.scss";
 @import "../html/blocks/reviews/reviews.scss";
+@import "../html/forms/form_1/form_1";
 
 // Подключение стилей отдельных страниц
 @import "home";

@@ -2,9 +2,53 @@
   <div class="subheader__container">
     <div class="subheader__wrapper">
       <h1 class="subheader__title title">Закажи такси в Москве по лучшей цене!</h1>
-      <div class="subheader__desc">Разнообразный и богатый опыт говорит нам, что глубокий уровень погружения однозначно фиксирует модель развития.</div>
+      <div class="subheader__desc">Разнообразный и богатый опыт говорит нам, что глубокий уровень погружения однозначно
+        фиксирует модель развития.
+      </div>
     </div>
   </div>
   <div class="subheader__map" id="map"></div>
-  
+
+  <div class="form-1">
+    <div class="select__from">
+      <label for="from">ОТКУДА</label>
+      <select id="from" data-search data-class-modif="from" data-scroll name="form[]" class="form">
+        <option value="">Улица</option>
+      </select>
+    </div>
+    <div class="select__to">
+      <label for="to">КУДА</label>
+      <select id="to" data-search data-class-modif="to" data-scroll name="form[]" class="form">
+        <option value="">Улица</option>
+      </select>
+    </div>
+    <div class="select__class">
+      <label for="class">КЛАСС АВТО</label>
+      <select id="class" data-class-modif="class" data-scroll name="form[]" class="form">
+        <option value="1">Стандарт</option>
+        <option value="2">Универсал</option>
+        <option value="3">Комфорт</option>
+        <option value="4">Бизнес</option>
+        <option value="5">Минивен</option>
+      </select>
+    </div>
+    <div class="form-1__results results-form-1">
+      <div class="results-form-1__cash">
+        <div class="cash-title">СТОИМОСТЬ</div>
+        <div class="cash-num">-</div>
+      </div>
+      <div class="results-form-1__distance">
+        <div class="distance-title">РАССТОЯНИЕ</div>
+        <div class="distance-num">-</div>
+      </div>
+      <div class="results-form-1__time">
+        <div class="time-title">ВРЕМЯ</div>
+        <div class="time-num">-</div>
+      </div>
+    </div>
+    <div class="form-1__footer">
+      <div class="form-1__btn disabled">Далее</div>
+      <div class="form-1__steps">1/3</div>
+    </div>
+  </div>
 </div>

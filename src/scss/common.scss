@@ -29,3 +29,9 @@ table {
   line-height: math.div(20, 16);
   color: $whiteColor;
 }
+
+.form {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

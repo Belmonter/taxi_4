@@ -1,0 +1,131 @@
+@use "sass:math";
+
+.select__from {
+  height: 48px;
+}
+.select__to {
+  height: 48px;
+  margin-top: 25px;
+}
+.select__class {
+  height: 48px;
+  margin-top: 25px;
+}
+.form-1 {
+  position: absolute;
+  top: 21.17%;
+  right: 18.3%;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  height: 500px;
+  background: #FFFFFF;
+  box-shadow: 0px 35px 143px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  label {
+    font-weight: 700;
+    font-size: rem(14);
+    line-height: math.div(17, 14);
+    letter-spacing: 0.07em;
+    color: $greyColor;
+  }
+  // .form-1__footer
+  &__footer {
+    margin-top: 31px;
+    display: flex;
+  }
+  // .form-1__btn
+  &__btn {
+    width: 186px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $themeColor;
+    box-shadow: 0px 21px 55px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: rem(16);
+    line-height: math.div(20, 16);
+    color: $whiteColor;
+    &.disabled {
+      background: $greyColor;
+    }
+  }
+  // .form-1__steps
+  &__steps {
+    align-self: flex-end;
+    justify-self: flex-start;
+  }
+}
+
+.results-form-1 {
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  // .results-form-1__cash
+  &__cash {
+  }
+  // .results-form-1__distance
+  &__distance {
+  }
+  // .results-form-1__time
+  &__time {
+  }
+}
+.cash-title {
+  font-weight: 700;
+  font-size: rem(14);
+  line-height: math.div(17, 14);
+  color: $greyColor;
+  letter-spacing: 0.07em;
+}
+.cash-num {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: rem(24);
+  line-height: math.div(29, 24);
+  letter-spacing: 0.07em;
+  color: $themeColor;
+}
+.distance-title {
+  font-weight: 700;
+  font-size: rem(14);
+  line-height: math.div(17, 14);
+  color: $greyColor;
+  letter-spacing: 0.07em;
+}
+.distance-num {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: rem(24);
+  line-height: math.div(29, 24);
+  letter-spacing: 0.07em;
+  color: $themeColor;
+}
+.time-title {
+  font-weight: 700;
+  font-size: rem(14);
+  line-height: math.div(17, 14);
+  color: $greyColor;
+  letter-spacing: 0.07em;
+}
+.time-num {
+  margin-top: 6px;
+  font-weight: 700;
+  font-size: rem(24);
+  line-height: math.div(29, 24);
+  letter-spacing: 0.07em;
+  color: $themeColor;
+}
+
+.select_from {
+  margin-top: 6px;
+}
+.select_to {
+  margin-top: 6px;
+}
+.select_class {
+  margin-top: 6px;
+}
