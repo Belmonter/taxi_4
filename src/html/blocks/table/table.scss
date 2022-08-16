@@ -5,10 +5,14 @@
   // .table__container
   &__container {
   }
+  .table__wrapper {
+    @include adaptiveValue("margin-top", 30, 16);
+    max-height: 470px;
+    overflow-y: auto;
+  }
 
   // .table__table
   &__table {
-    margin-top: 30px;
     width: 100%;
     table-layout: fixed;
     border-collapse: separate;

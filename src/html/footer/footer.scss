@@ -26,6 +26,12 @@
   }
   // .footer__logo
   &__logo {
+    font-weight: 700;
+    font-size: rem(20.6);
+    line-height: math.div(25, 20.6);
+    span {
+      color: $whiteColor;
+    }
     @media (max-width: 778px) {
       display: flex;
       justify-content: center;
@@ -74,6 +80,9 @@
   }
   // .footer-menu__link
   &__link {
+    &:hover {
+      color: $mainColor;
+    }
   }
 }
 .contacts-footer {

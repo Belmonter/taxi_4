@@ -3,7 +3,6 @@
 // Заголовки, общие БЄМ блоки и проче...
 
 
-
 .title {
   font-weight: 700;
   font-size: rem(32);
@@ -28,6 +27,10 @@ table {
   font-size: rem(16);
   line-height: math.div(20, 16);
   color: $whiteColor;
+  &__form {
+    width: 186px;
+    height: 50px;
+  }
 }
 
 .form {
@@ -37,6 +40,7 @@ table {
 }
 
 .form-disable {
+  display: none;
   opacity: 0;
   visibility: hidden;
 }
@@ -71,4 +75,123 @@ table {
   font-size: rem(16);
   line-height: math.div(20, 16);
   color: $greyColor;
+}
+
+.form__arrow {
+  cursor: pointer;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  transform: translate(0, 50%);
+  &::before {
+    font-size: rem(32);
+  }
+  @media (max-width: 380px) {
+    transform: none;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.inp-active {
+  border: 1px solid $themeColor !important;
+  //&::placeholder {
+  //  color: $mainColor;
+  //}
+}
+
+.error {
+  &__form {
+    display: none;
+    margin-top: 5px;
+    font-size: rem(14);
+    color: red;
+  }
+}
+
+.mobile-form {
+  height: auto;
+}
+
+.footer__mobile {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  &-2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  &-3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+.underline-one {
+  color: $mainColor; /* Цвет обычной ссылки */
+  position: relative;
+  cursor: pointer;
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+
+.underline-one:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: $themeColor; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px; /* Высота линии */
+  background-color: $themeColor; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one-footer {
+  color: $whiteColor; /* Цвет обычной ссылки */
+  position: relative;
+  cursor: pointer;
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+
+.underline-one-footer:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: $mainColor; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one-footer:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px; /* Высота линии */
+  background-color: $mainColor; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s; /* Время эффекта */
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(1.46 0 0 1.46 200 200)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,102,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-68.38, -54)" d="M 52.984 108 L 0 55.008 L 23.2733 31.732 L 52.9853 61.4427 L 114.432 0.00799561 L 136.761 22.3413 L 134.875 24.2267 L 114.432 3.77866 L 52.9853 65.2133 L 23.2733 35.5027 L 3.77067 55.008 L 54.8693 106.115 L 52.984 108 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.46 0 0 1.46 200.69 200.69)"  >
+<linearGradient id="SVGID_def0_1" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 68.85 54.48)"  x1="0.500005" y1="1.64246" x2="0.500005" y2="-0.139493">
+<stop offset="0%" style="stop-color:rgb(0,68,0);stop-opacity: 1"/>
+<stop offset="51.0989%" style="stop-color:rgb(1,140,1);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(145,205,145);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_def0_1); fill-rule: nonzero; opacity: 1;"  transform=" translate(-68.85, -54.48)" d="M 135.818 23.2845 L 114.433 1.89386 L 52.9864 63.3285 L 23.2731 33.6179 L 1.88507 55.0085 L 21.1731 74.2965 L 34.5224 87.6525 L 53.9264 107.058" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.46 0 0 1.46 200.69 184.79)"  >
+<linearGradient id="SVGID_def1_2" gradientUnits="objectBoundingBox" gradientTransform="matrix(1 0 0 1 68.85 43.61)"  x1="-0.00000537426" y1="0.499996" x2="0.999997" y2="0.499996">
+<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity: 0.301960784313725"/>
+<stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity: 0.2"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_def1_2); fill-rule: nonzero; opacity: 1;"  transform=" translate(-68.85, -43.61)" d="M 52.9864 63.3272 L 23.2744 33.6179 L 1.8864 55.0085 L 21.1731 74.2965 L 32.1877 85.3179 C 47.3477 75.9739 72.5917 62.9872 101.517 58.3739 L 135.818 23.2845 L 114.433 1.89386 L 52.9864 63.3272 z" stroke-linecap="round" />
+</g>
+</svg>
