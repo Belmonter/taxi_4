@@ -223,7 +223,6 @@ function inputSaveData(event, field) {
 		value ? event.target.classList.add('inp-active') : event.target.classList.remove('inp-active');
 		value = value.replaceAll(' ', '').replaceAll('(', '').replaceAll(')', '').replaceAll('-', '');
 		formData.phone = value;
-		console.log(formData);
 		checkForm_2();
 	}
 	if (field === 'email') {

@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { formData, transferData } from './formLogic.js';
-import $ from 'jquery';
 import { flsModules } from './files/modules.js';
 
 class ApiService {

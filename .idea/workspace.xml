@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="350b1520-bf85-4e02-8175-81bbc01bdf6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/apiService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/formLogic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cover.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_popup.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_popup.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/class/class.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/class/class.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/faq/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/faq/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/prices/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/prices/prices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/promo/_promo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/promo/_promo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/questions/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/questions/questions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/reviews/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/reviews/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/subheader/_subheader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/subheader/_subheader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/table/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/table/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/table/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/table/table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blocks/why/why.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blocks/why/why.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/footer/_footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/footer/_footer.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/forms/form_1/form_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/form_1/form_1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/forms/form_2/form_2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/form_2/form_2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/forms/form_3/form_3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/form_3/form_3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/forms/form_4/form_4.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/forms/form_4/form_4.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/header/_header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header/_header.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_head.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_head.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/apiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/apiService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/calendarTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/calendarTime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/libs/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/TimeFormat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/yandexMaps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/yandexMaps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/input.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/formLogic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/formLogic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +75,9 @@
       <workItem from="1660117378160" duration="23823000" />
       <workItem from="1660209181451" duration="14718000" />
       <workItem from="1660549710953" duration="5748000" />
+      <workItem from="1660630438751" duration="81000" />
+      <workItem from="1661176737528" duration="4607000" />
+      <workItem from="1661267986678" duration="4516000" />
     </task>
     <servers />
   </component>

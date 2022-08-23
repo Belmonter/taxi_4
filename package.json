@@ -79,7 +79,6 @@
 		"eslint": "^8.21.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
-		"jquery": "^3.6.0",
 		"lodash": "^4.17.21",
 		"simplebar": "latest"
 	}
